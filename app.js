@@ -6,7 +6,7 @@ function Book(title, author, isbn) {
 }
 
 //UI Constructor
-function UI() {}
+function UI() {};
 
 // add book to list
 UI.prototype.addBookToList = function (book) {
@@ -96,7 +96,7 @@ document
     event.preventDefault();
   });
 
-// event listener for Delete
+// event listener for Delete  // event delegation
 
 document.getElementById('book-list').addEventListener('click', function (e) {
   // instantiate a UI object
